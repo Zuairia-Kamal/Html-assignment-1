@@ -2,60 +2,168 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Assignment 1</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="logo">LOGO</div>
-      <div class="menu">☰</div>
-    </nav>
-  </header>
-
-  <section class="hero">
-    <h1>Cool Dark UI Template for <br> Webflow Agencies!</h1>
-    <p>See it in action</p>
-    <button>Preview</button>
-    <img src="https://via.placeholder.com/300x200" alt="Webflow Conf 2022" />
-  </section>
-
-  <section class="stats">
-    <h3>Joined Thousands of Productive Users</h3>
-    <div class="numbers">
-      <div><strong>50K</strong><br>Users</div>
-      <div><strong>2M+</strong><br>Downloads</div>
-      <div><strong>95%</strong><br>Satisfaction</div>
+  <div class="hero-section">
+    <div class="top-bar">
+      <span class="logo">LOGO</span>
+      <button class="signup-btn">Sign Up</button>
     </div>
+    <div class="hero-content">
+      <h1>Cool Dark UI Template for <br> Webflow Agencies!</h1>
+      <button class="focus-btn">Stay Focused</button>
+    </div>
+  </div>
+
+  <section class="see-it">
+  <div class="see-text">
+    <h2>See It in Action</h2>
+    <p>Explore the live preview and imagine your brand in this bold new look.</p>
+    <button class="preview-btn">Launch Live Preview</button>
+  </div>
+  <div class="see-image">
+    <img src="assets/wc-mini.png" alt="Webflow Conf 2022" />
+  </div>
+</section>
+
+    
   </section>
+  <section class="stats">
+  <section class="stats">
+  <h3 class="stats-heading">Joined Thousands of Productive Users</h3>
+  <div class="numbers">
+    <div class="stat">
+      <div class="number">50K</div>
+      <div class="label">Active Users</div>
+    </div>
+    <div class="stat">
+      <div class="number">2M+</div>
+      <div class="label">Focus Sessions</div>
+    </div>
+    <div class="stat">
+      <div class="number">95%</div>
+      <div class="label">Satisfaction Rate</div>
+    </div>
+  </div>
+</section>
+
 
   <section class="testimonials">
-    <h3>What our users say</h3>
-    <div class="cards">
-      <div class="card">★ ★ ★ ★ ★ <br> Great design!</div>
-      <div class="card">★ ★ ★ ★ ★ <br> Easy to use!</div>
-      <div class="card">★ ★ ★ ★ ☆ <br> Highly recommend!</div>
+    <h3 class="section-heading">What our users say</h3>
+    <div class="review-section">
+  
     </div>
-  </section>
+    <div class="reviews-row">
+  <div class="review-card">
+    <div class="stars">
+      <img src="assets/icon-star.png" alt="star" />
+      <img src="assets/icon-star.png" alt="star" />
+      <img src="assets/icon-star.png" alt="star" />
+      <img src="assets/icon-star.png" alt="star" />
+      <img src="assets/icon-star.png" alt="star" />
+    </div>
+    <p class="quote">Loved by Designers</p>
+    <div class="reviewer">
+      <img src="assets/avatar.png" alt="Reviewer" class="avatar" />
+      <span class="name">Reviewer name</span>
+    </div>
+    <p class="date">Date</p>
+  </div>
 
-  <section class="focus">
-    <h3>Ready to focus better</h3>
-    <img src="https://via.placeholder.com/300x200" alt="Conf Image" />
-  </section>
+  <div class="review-card">
+    <div class="stars">
+      <img src="assets/icon-star.png" alt="star" />
+      <img src="assets/icon-star.png" alt="star" />
+      <img src="assets/icon-star.png" alt="star" />
+      <img src="assets/icon-star.png" alt="star" />
+      <img src="assets/icon-star.png" alt="star" />
+    </div>
+    <p class="quote">Loved by Designers</p>
+    <div class="reviewer">
+      <img src="assets/avatar.png" alt="Reviewer" class="avatar" />
+      <span class="name">Reviewer name</span>
+    </div>
+    <p class="date">Date</p>
+  </div>
 
-  <section class="contact">
-    <h3>Let's Get in Touch</h3>
-    <form>
-      <input type="text" placeholder="Name" required />
-      <input type="email" placeholder="Email" required />
+  <div class="review-card">
+    <div class="stars">
+      <img src="assets/icon-star.png" alt="star" />
+      <img src="assets/icon-star.png" alt="star" />
+      <img src="assets/icon-star.png" alt="star" />
+      <img src="assets/icon-star.png" alt="star" />
+      <img src="assets/icon-star.png" alt="star" />
+    </div>
+    <p class="quote">Loved by Designers</p>
+    <div class="reviewer">
+      <img src="assets/avatar.png" alt="Reviewer" class="avatar" />
+      <span class="name">Reviewer name</span>
+    </div>
+    <p class="date">Date</p>
+  </div>
+</div>
+
+    
+  </section>
+ <section class="focus-section">
+  <div class="focus-content">
+    <div class="focus-text">
+      <h2>Ready to focus better</h2>
+      <p>“This template instantly leveled up our presence.” – Studio Vertex</p>
+      <button class="focus-btn">Get Started Free</button>
+    </div>
+    <div class="focus-image">
+      <img src="assets/wc-big.png" alt="Webflow Conf Preview">
+    </div>
+  </div>
+  <div class="focus-image">
+    <img src="assets/wc-big.png" alt="Webflow Conf Preview">
+  </div>
+</section>
+
+
+  <section class="touch">
+    <div class="contact-section">
+  <div class="contact-container">
+    <div class="contact-heading-wrapper">
+      <h1 class="contact-heading">Let's Get in Touch</h2>
+    </div>
+    <form class="contact-form">
+
+      <form class="contact-form">
+    <p class="form-label">Email</p>
+    <input type="email" placeholder="Your Email" required />
+        
+      <p class="form-label">Name</p>
+      <input type="text" placeholder="Your Name" required />
+
+      <p class="form-label">Message</p>
       <textarea placeholder="Your Message"></textarea>
-      <button type="submit">Send</button>
+      <button type="submit" class="submit-btn">Get in Touch</button>
     </form>
-  </section>
+  </div>
+</div>
 
-  <footer>
-    <div class="logo">LOGO</div>
-  </footer>
+  </section>
+<footer class="site-footer">
+  <h2 class="footer-logo">LOGO</h2>
+  <p class="footer-desc">
+    Ready to elevate your online presence? Contact us today to discuss<br> your project and discover how we can bring your vision to life.
+  </p>
+  <ul class="footer-nav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">How it Works</a></li>
+    <li><a href="#">Services</a></li>
+  </ul>
+</footer>
+
+  
 </body>
 </html>
+
