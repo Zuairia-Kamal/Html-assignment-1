@@ -55,7 +55,8 @@
 .number {
   font-size: 2.3rem;
   font-weight: 700;
-  color: #4f46e5;     /* Vivid purple for numbers */
+  color: #4f46e5;     
+
   margin-bottom: 6px;
 }
 
